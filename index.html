@@ -4,276 +4,458 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CapitalOne: Update old credit card info</title>
+                    <title>CapitalOne: Update old credit card info</title>
 
-    <style>
-        html{
-            background-color:#cccccc;
+<style>
+/* Desktop View */
+/* @media only screen and (min-width: 960px){
+        .main-container{
+        width:100%;
+        background-color:#000000;
+        text-align:center;
+        font-family:'Times New Roman', Times, serif;
         }
-        body{
-            background-color:#cccccc;
+        .email-container{
+        width:600px;
+        text-align:center;
+        padding:20px 20px;
+        background-color:#000000;
+        font-family:'Times New Roman', Times, serif;
         }
-    </style>
 
+        .content-container{
+        width:600px;
+        text-align:center;
+        padding:20px 20px;
+        background-color:#000000;
+        font-family:'Times New Roman', Times, serif;
+        }
+        .footer{
+        width:600px;
+        text-align:center;
+        padding:20px 20px;
+        background-color:#000000;
+        font-family:'Times New Roman', Times, serif;
+        }
+        .logo{
+        width:600px;
+        text-align:center;
+        padding:20px 20px;
+        background-color:#000000;
+        font-family:'Times New Roman', Times, serif;
+        }   
+    } */
+
+
+
+        /* Tablet View */
+    /* @media only screen and (max-width: 960px){
+        .main-container{
+        width:100%;
+        background-color:#000000;
+        }
+        .email-container{
+        width:100%;
+        background-color:#000000;
+        }
+        .content-container{
+        width:100%;
+        background-color:#000000;
+        }
+        .footer{
+        width:100%;
+        background-color:#000000;
+        }
+        .logo{
+        width:100%;
+        background-color:#000000;
+        }   
+    } */
+
+
+
+        /* Smartphone View */
+    @media only screen and (max-width: 600px){
+        
+        .disclaimer{
+        display: none;
+        }
+
+        .main-wrapper{
+        width:100%;
+        background-color:#000000;
+        }
+        .main-email-wrapper{
+        width:600px;
+        background-color:#000000;
+        }
+        /* .content-container{
+        width:100%;
+        background-color:#000000;
+        }
+        .footer{
+        width:100%;
+        background-color:#000000;
+        }
+        .logo{
+        width:100%;
+        }    */
+    }        
+</style>
 </head>
+
+
 <body>
-    <!-- Start Table for the 100% main-wrapper -->
-    <table  class="section-0" id="Main-App-Container" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#cccccc; height:100vh;">
+<!-- begin table for the main-wrapper @width:100%; -->  
+<table id="main-wrapper" width="100%" cellspacing="0" 
+cellpadding="0" border="0" style="background-color:#ffffff;">
 
-        <tr>
-            <td>
+<!-- begin disclaimer announcing no intent of proprietary infringements -->
+<tr>
+    <td>
+        <table class="disclaimer" width="100%" align="center" border="0" 
+        cellspacing="0" cellpadding="0" style="background-color:gold; 
+        text-align:left; margin:0; padding:0;">
+<tr>
+    <td style="width:30%; text-align:left; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px; color:#292929;
+    border:1px solid black; padding:20px 20px 10px 20px; 
+    vertical-align:auto;">
+        <span style="font-weight:600; 
+        font-size:.9rem; letter-spacing:1px;">
+                DISCLAIMER: 
+        </span>
+        <br/>Below are clones of my emails from corporations whom i subscribe to as a customer. These clones are only for Demonstration Purposes of my coding skills. No infringements are intended against any corporation's copyrights, trademarks, intellectual properties, logos, or other proprietary assets. Please contact me if there are any infringement violations.
+    </td>
+    <td style="width:40%; text-align:left; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px; color:#292929;
+    border:1px solid black; 
+    padding:20px 20px 10px 20px; vertical-align:auto;">
+        <span style="font-weight:600; 
+        font-size:.9rem; letter-spacing:1px;
+        text-decoration:underline;">
+                README: 
+                <br/>"CapitalOne: Update old credit card info"
+        </span>
+        <br/>This is a clone of Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quis sint, velit, voluptatibus distinctio, quasi mollitia assumenda accusamus nisi itaque debitis suscipit aut commodi eligendi necessitatibus ullam. Iusto et, natus voluptatem, odio doloremque amet aperiam molestias cum ad quaerat dicta, rem rerum tempora iure aut vitae consequuntur earum sapiente veritatis quas nisi. Voluptatem porro iure corrupti eaque pariatur. In consectetur dignissimos, quibusdam tempora eius fugiat illo maxime et repellendus veritatis quod unde consequuntur! Numquam molestiae impedit necessitatibus. Dolorem, explicabo? Iure.
+    </td>
+    <td style="width:30%; text-align:left; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px; color:#292929; 
+    border:1px solid black; padding:20px 20px 10px 20px; 
+    vertical-align:auto;">
+        <span style="font-weight:600; 
+        font-size:.9rem; letter-spacing:1px;">
+                TECHNOLOGIES USED:
+        </span>
+        <br/> * html tables, html5, css3, web accessibility
+        <br/> * 
+            <span>
+                <a align="center" href="https://github.com/jerome-wilson-developer/email_promo-starbucks-happy-hour-drinks" target="_blank">github,</a>
+            </span>            
+            vsc, npm, webpack, gulp, lighthouse, 
+            <span>
+                <a href="https://resume-jerome-wilson-developer.netlify.com/" target="_blank">netlify</a>
+            </span> 
+        <hr/>
+        <a align="center" style="padding:5px 3px 5px 5px;">
+            <img src="images/icon-html-table-png-128x128-black-8.png" 
+            width="80" height="50" 
+            alt="icon for html5 tables"/>
+        </a>
+        <a align="center" style="padding:5px 3px 5px 3px;">
+            <img src="images/icon-html5-png-128x128.png" 
+            width="50" height="50" 
+            alt="icon for html5"/>
+        </a>
+        <a align="center" style="padding:5px 3px 5px 3px;">
+            <img src="images/icon-css3-png-128x128.png" 
+            width="50" height="50" 
+            alt="icon for css3"/>
+        </a>
+        <a align="center" style="padding:5px 3px 5px 3px;">
+            <img src="images/icon-wai-aria-accessibility-png-128x128.png" 
+            width="50" height="50" 
+            alt="icon for web accessibility"/>
+        </a>
+        <a href="https://github.com/jerome-wilson-developer/email_transact-usps-auto-renew-pobox" align="center" style="padding:5px 5px 5px 3px;">
+            <img src="images/icon-github-png-128x128.png" 
+            width="50" height="50" 
+            alt="icon for github files"/>
+        </a>
+    </td>
+</tr>
+</table>
+    </td>
+</tr>
+<!-- end disclaimer announcing no intent of proprietary infringements -->
 
-<!-- Begin a TABLE for the HEADER -->
-<!-- begin disclaimer announcing no intent of mcdonald proprietary infringements -->
-<table class="header" align="center" border="0" cellspacing="0" cellpadding="0"
-width="100%" style="background-color:#cccccc;">
-
-          <!-- <tr style="background-color:#52b8ff;"> -->
-                <tr style="background-color:lightblue;">
-                        <td style="width:40%; text-align:left; font-family:Arial, Helvetica, sans-serif; border-right:1px solid black; color:#000000; border:1px solid black;"> 
-                            <p style="margin:0; padding:20px 20px 20px 20px; font-size:14px; font-weight:500; color:#393939;font-family:Arial, Helvetica, sans-serif;">
-                            <span style="font-weight:700; font-style:italic;">DISCLAIMER:</span> These clones are for Demo Purposes Only.
-                            <br>No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets.  kkkkkkkkkkkkkkk kkkkkkkkkk
-                            </p>
-                        </td> 
-                
-                        <td style="width:40%; text-align:left; font-family:Arial, Helvetica, sans-serif; border-right:1px solid black; color:#000000; border:1px solid black;"> 
-                            <p style="margin:0; padding:5px 20px 20px 20px; font-size:14px; font-weight:500; color:#393939;font-family:Arial, Helvetica, sans-serif;">
-                                <span style="font-weight:700; font-style:italic;">README:</span> Below is a clone of McDonald's menu website. This landing page appears when one clicks to sign into their free wifi. I built this with pure html5, css3, and javascript. I built this with pure html5, css3, and javascript.
-                            </p>   
-                        </td>
-          
-                        <td style="width:20%; padding-left:20px; padding-right:10px; font-size:14px; font-weight:500; color:#393939;font-family:Arial, Helvetica, sans-serif; border:1px solid black;">
-                            <h4 style="font-weight:700; font-style:italic;">
-                              TECHNOLOGIES USED:
-                            </h4>
-                            <a>
-                              <img src="https://i.postimg.cc/52vmHw0R/facebook-icon.png" 
-                                  alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                                <img src="https://i.postimg.cc/yxgZMH3b/twitter-icon.png" 
-                                alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                              <img src="https://i.postimg.cc/9F991ch4/youtube-icon.png" 
-                              alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                              <img src="https://i.postimg.cc/52vmHw0R/facebook-icon.png" 
-                                  alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                                <img src="https://i.postimg.cc/yxgZMH3b/twitter-icon.png" 
-                                alt="twitter icon" />
-                            </a>
-                            <a align="center">
-                              <img src="https://i.postimg.cc/9F991ch4/youtube-icon.png" 
-                              alt="twitter icon" />
-                            </a>
-                        </td>                
-                      </tr>
-                  </table> 
-                <!-- end disclaimer announcing no intention of mcdonald proprietary infringements -->
-            <hr/>
 
 
-            </td>
-        </tr>
 
+
+
+
+<!-- begin row for the main-email-wrapper @width:600px; -->
+<tr>
+    <td>    
+        <!-- begin row for the main-email-wrapper @width:600px; -->
+        <table class="main-email-wrapper" width="600px" 
+        align="center" cellspacing="0" cellpadding="0" border="0"
+        style="background-color:wheat;
+        border:1px solid brown;
+        padding:20px 20px;">
+
+            <!-- begin row for the email-meta-data-section -->
             <tr>
-                <td style="text-align:left; padding:20px 190px; color:#595959; font-weight:500; background-color:#cccccc;">
-                    <p>From: Indeed Staffing</p>
-                    <p>Sent: ???, November 7, 2019 9:08PM</p>
+                <td style="text-align:left; padding:20px 20px; 
+                color:#292929; font-weight:500; 
+                font-family: 'Open Sans', 'Helvetica Neue', Helvetica, 
+                Arial, 'Lucida Grande', sans-serif;">
+                    <p>From: Starbucks</p>
+                    <p>Sent: Thu, Oct 10, 2019, 8:20 AM</p>
                     <p>To: jerome-wilson-developer@hotmail.com</p>
-                    <p>Subject: Your purchase with PURE FLIX DIGITAL was declined</p>
+                    <p>Subject: "Get the Salted Caramel Mocha at Happy Hour"</p>
                 </td>
             </tr>
-<!-- begin disclaimer announcing no intent of mcdonald proprietary infringements -->
-<!-- End the TABLE for the HEADER -->
+            <!-- end row for the email-meta-data-section -->
 
 
-
-
-<!-- Start Table for the 600px main-wrapper --> 
-<table class="container" width="600px" align="center" cellspacing="0" cellpadding="0" border="0" style="margin-top:50px; margin-bottom:0px; background-color:#ffffff; padding:20px 50px 50px 50px;">
-    <tr>
-        <td><!--CapitolOne logo-->
-            <table class="container" width="50%" align="center" cellspacing="0" cellpadding="0" border="0" style="margin-top:50px; border-radius:5px; background-color:#fff; padding:10px 10px 10px 10px;">
-                <img src="images/capitalone-small-logo_core_2x.png" alt="capitol one logo"/>
-                <p>Sign In</p>
-            </table>
-        </td>
-    </tr>       
-
-    <tr>
-        <td><!--the header with an h1 tag-->
-            <h1 style="background-color:#0000ff; padding:10px 10px 10px 10px; color:#ffffff; font-weight:500; font-size:1.2rem; font-weight:600;">PURE FLIX DIGITAL needs your new card information.</h1>
-        </td>
-    </tr>
-
-
-
-
-
-
-    <tr>
-        <td>
-
-
-            <!--begin table for "decline notice"-->
-    <table>    
-        <tr>
-            <td>
-                <p>Your <span style="font-size:1.2rem; font-weight:600;">PURE FLIX DIGITAL</span> charge for <span style="font-size:1.2rem; font-weight:600;">$10.99</span> was declined because they tried to charge your old Capital One card ending in 2840.</p>
-    
-                <p>To make sure future charges go through, you can update your card information directly with <span style="font-size:1.2rem; font-weight:600;">PURE FLIX DIGITAL.</span></p>
-    
-                <p><a>Take a look at other places</a> where you may have stored this <span style="font-size:1.2rem; font-weight:600;">old card information</span>.</p>    
-            </td>
-        </tr>
-    </table>
-    <!--end table for "decline notice"-->
+<!-- begin the h1 header tag-->
+<tr>
+    <td>
+        <h1 style="background-color:#0000ff; 
+        padding:10px 10px 10px 10px; color:#ffffff; 
+        font-weight:500; font-size:1.2rem; font-weight:600;">
+            PURE FLIX DIGITAL needs your new card information.
+        </h1>
     </td>
 </tr>
 
-            <hr/>
 
-            
+
+<!-- begin the h1 header tag-->
 <tr>
-    <!--begin table for survey-->
     <td>
-        <p style="text-align:center; width:100%">Was this email helpful? <br/>Tell us what you think in one click.</p>
+        <h1 style="background-color:#0000ff; 
+        padding:10px 10px 10px 10px; color:#ffffff; 
+        font-weight:500; font-size:1.2rem; font-weight:600;">
+            PURE FLIX DIGITAL needs your new card information.
+        </h1>
     </td>
 </tr>
+<!-- end the h1 header tag-->
 
-    
+
+<!--begin row for the "update your info -->
 <tr>
     <td>
-        <table style="align-items:center; text-align:center; margin-bottom:0px; width:100%; padding-right:30px;">
+<!--begin table for the "update your info -->
+        <table class="update-info" width="100%" align="center" 
+        cellspacing="0" cellpadding="0" border="0">   
+            <tr>
+                <td>
+                    <p>Your 
+                        <span style="font-size:1.2rem; font-weight:600;">
+                            PURE FLIX DIGITAL
+                        </span> 
+                        charge for 
+                        <span style="font-size:1.2rem; font-weight:600;">
+                            $10.99
+                        </span> 
+                        was not completed because they tried to charge your old 
+                        Capital One card ending in 1234.
+                    </p>
+                    <p>To make sure future charges go through, you can update your card information directly with 
+                        <span style="font-size:1.2rem; font-weight:600;">
+                            PURE FLIX DIGITAL.
+                        </span>
+                    </p>
+                    <p>
+                        <a>Take a look at other places</a> 
+                        where you may have stored this 
+                        <span style="font-size:1.2rem; font-weight:600;">
+                            old card information
+                        </span>.
+                    </p>    
+                </td>
+            </tr>
+        </table>
+<!-- end table for the "update your info -->
+    </td>
+</tr>
+<!-- end row for the "update your info -->
+
+<hr/>
+
+<!--begin row for customer satisfaction survey-->
+<tr>
+    <td>
+        <p style="text-align:center; width:100%">
+            Was this email helpful? 
+            <br/>Tell us what you think in one click.
+        </p>
+    </td>
+</tr>
+<!-- end row for customer satisfaction survey-->
+
+
+<tr>
+    <td>
+        <table class="update-info" width="100%" align="center" 
+        cellspacing="0" cellpadding="0" border="0" 
+        style="align-items:center; text-align:center; 
+        margin-bottom:50px; padding-right:30px;">
             <tr style="align-items:center;">
                 <td style="text-align:center; color:blue;">
-                    <img src="images/btn_survey_absolutely_2x.png" alt="" style="padding-right:60px;"/>
-                    <a href="/">Absolutely</a>
+                    <img src="images/btn_survey_absolutely_2x.png" 
+                    alt="" style="padding-right:60px;"/>
+                    <a href="/">
+                        Absolutely
+                    </a>
                 </td>
+
                 <td>
                     <img src="images/btn_survey_sure_2x.png" alt="" style="padding-right:60px;"/>
-                    <a href="/">Sure</a>
-                </td>            
+                    <a href="/">
+                        Sure
+                    </a>
+                </td> 
+                        
                 <td>
-                    <img src="images/btn_survey_neutral_2x.png" alt="" style="padding-right:60px;"/>
-                    <a href="/">Neural</a>
+                    <img src="images/btn_survey_neutral_2x.png" 
+                    alt="" style="padding-right:60px;"/>
+                    <a href="/">
+                        Neural
+                    </a>
                 </td> 
             </tr>
+        </table>
+
+        <table class="update-info" width="100%" align="center" 
+        cellspacing="0" cellpadding="0" border="0" 
+        style="align-items:center; text-align:center; 
+        margin-bottom:50px; padding-right:30px;">
             <tr>
                 <td>
-                    <img src="images/btn_survey_notreally_2x.png" alt="" style="padding-right:60px;"/>
-                    <a href="/">Not Really</a>
-                </td>            
+                    <img src="images/btn_survey_notreally_2x.png" 
+                    alt="" style="padding-right:60px;"/>
+                    <a href="/">
+                        Not Really
+                    </a>
+                </td>  
+                            
                 <td>
-                    <img src="images/btn_survey_nope_2x.png" alt="" style="padding-right:60px;"/>
-                    <a href="/">Nope</a>
+                    <img src="images/btn_survey_nope_2x.png" 
+                    alt="" style="padding-right:60px;"/>
+                    <a href="/">
+                        Nope
+                    </a>
                 </td>
             </tr>
-        
         </table>
-            <!--end table for survey-->
-        </td>
-    </tr>
+        <!--end table for the customer satisfaction survey-->
+    </td>
+</tr>
+<!-- end row for the customer satisfaction survey -->
 <!-- </table> -->
-</table>
 
 
 
 <!--begin simple.flexible.mobile-row-->
 <tr>
-    <td>
-        <table width="" cellspacing="0" cellpadding="0" border="0" style="background-color:#cccccc; text-align:left; padding:20px 300px;">
-        <tr>
-            <td>
-                <img src="images/iconsoc_mb_2x.png" alt=""/>
-                <p>Simple.Flexible.Mobile.<br/>
-                    Download the secure Capital One Mobile app.</p>
-            </td>
-        </tr>
-
-        <tr>
-            <td style="text-align:center; color:blue;">                        
-                <a href="https://www.facebook.com/capitalone">
-                    <img src="images/iconsoc_fb_2x.png" alt=""/>
-                </a>
-            </td>
-            <td style="text-align:center; color:blue;">                        
-                    <a href="https://twitter.com/capitalone/">
-                        <img src="images/iconsoc_tw_2x.png" alt=""/>
-                    </a>
-                </td>
-            <td style="text-align:center; color:blue;">                        
-                <a href="https://www.facebook.com/capitalone">
-                    <img src="images/iconsoc_fb_2x.png" alt=""/>
-                </a>
-            </td>               
-            <td style="text-align:center; color:blue;">                        
-                <a href="https://www.youtube.com/user/CapitalOne">
-                    <img src="images/iconsoc_yt_2x.png" alt=""/>
-                </a>
-            </td>     
-            <td style="text-align:center; color:blue;">                        
-                <a href="https://www.linkedin.com/company/capital-one/">
-                    <img src="images/iconsoc_in_2x.png" alt=""/>
-                </a>
-            </td>        
-            <td style="text-align:center; color:blue;">                        
-                <a href="https://www.instagram.com/capitalone/">
-                    <img src="images/iconsoc_ig_2x.png" alt=""/>
-                </a>
-            </td>
-        </tr>
-    </table>
-
-
-    </td>
+<td>
+<table width="" cellspacing="0" cellpadding="0" border="0" style="background-color:#cccccc; text-align:left; padding:20px 300px;">
+<tr>
+<td>
+<img src="images/iconsoc_mb_2x.png" alt=""/>
+<p>Simple.Flexible.Mobile.<br/>
+Download the secure Capital One Mobile app.</p>
+</td>
 </tr>
-    <!--end simple.flexible.mobile-row-->
-
 
 <tr>
+<td style="text-align:center; color:blue;">                        
+<a href="https://www.facebook.com/capitalone">
+<img src="images/iconsoc_fb_2x.png" alt=""/>
+</a>
+</td>
+<td style="text-align:center; color:blue;">                        
+<a href="https://twitter.com/capitalone/">
+<img src="images/iconsoc_tw_2x.png" alt=""/>
+</a>
+</td>
+<td style="text-align:center; color:blue;">                        
+<a href="https://www.facebook.com/capitalone">
+<img src="images/iconsoc_fb_2x.png" alt=""/>
+</a>
+</td>               
+<td style="text-align:center; color:blue;">                        
+<a href="https://www.youtube.com/user/CapitalOne">
+<img src="images/iconsoc_yt_2x.png" alt=""/>
+</a>
+</td>     
+<td style="text-align:center; color:blue;">                        
+<a href="https://www.linkedin.com/company/capital-one/">
+<img src="images/iconsoc_in_2x.png" alt=""/>
+</a>
+</td>        
+<td style="text-align:center; color:blue;">                        
+<a href="https://www.instagram.com/capitalone/">
+<img src="images/iconsoc_ig_2x.png" alt=""/>
+</a>
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+<!--end simple.flexible.mobile-row-->
+
+
+<!-- begin the row for the footer-section -->
+<tr>
     <td>
-        <table width="" cellspacing="0" cellpadding="0" border="0" style="background-color:#cccccc; text-align:left; padding:20px 300px;">
-        <tr>
-            <td>
+<!-- begin the table for the footer-section -->
+<table width="" cellspacing="0" cellpadding="0" 
+border="0" style="background-color:#cccccc; 
+text-align:left; padding:20px 300px;">
+    <tr>
+        <td>
             <p>Important Information from Capital One</p>
 
             <p>Contact Us  |  Privacy  |  Help Prevent Fraud</p>
-            
+
             <p>To ensure delivery, add capitalone@notification.capitalone.com to your address book.</p>
-            
+
             <p>This email was sent to drjwebsitedesign@outlook.com and contains information directly related to your account with us, other services to which you have subscribed and/or any application you may have submitted.</p>
-            
+
             <p>The site may be unavailable during normal maintenance or due to unforeseen circumstances. Please visit our Set Alerts page to modify your alerts subscription preferences.</p>
-            
+
             <p>Capital One does not provide, endorse or guarantee any third-party product, service, information or recommendation listed above. The third parties listed are not affiliated with Capital One and are solely responsible for their products and services. All trademarks are the property of their respective owners.</p>
-            
+
             <p>Please do not reply to this message, as this email inbox is not monitored. To contact us, visit www.capitalone.com/contact.</p>
-            
+
             <p>Products and services are offered by Capital One, N.A., Member FDIC.</p>
-            
+
             <p>© 2018 Capital One. Capital One is a federally registered service mark.</p>
-            
+
             <p>DCOLPL 11577 60874</p>
         </td>
     </tr>
 </table>
-
-<!-- </td>
+        <!-- end the table for the footer-section -->
+    </td>
 </tr>
-</table> -->
-<!-- End Table for the 600px main-wrapper -->
+<!-- end the row for the footer-section -->
 
+<!-- end main-email-wrapper @width:600px; -->
         </td>
     </tr>
 </table>
-<!-- End Table for the 100% main-wrapper -->
-
+<!-- end table for the main-wrapper @width:100%; -->
 </body>
 </html>

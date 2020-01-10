@@ -1,9 +1,19 @@
-# email_transact-capitalone-payment-decline
+# Transactional html emails
 
-https://jerome-wilson-developer.github.io/email_transact-capitalone-payment-decline/
+## Capital One: Please update your expired credit card information
+This transactional email is a notification to the customer to update their old credit card. Update it's info to their new credit card number. The email has helpful quick links to commonly visited pages on the Capital One webiste. It also offers a quick, fun, non-intimidating survey about customer satisfaction. 
 
-This clone is a transactional email from CapitalOne advising the customer to update their credit card infomation. CapitalOne is also informing their cardholder a subscriber payment was denied to Pure Flix Digital because the payment request was made to an expired credit card number. The payment request and the expired card number is also provided, along with ways to eliminate this problem in the future. CapitalOne is asking their customer to complete a "one-question-survey" to help improve their customer service. Also, in the footer, CapitalOne offers many social media platforms to continue communicating, educating, and selling their financial services and products to their niche markets. 
+## TECHNOLOGIES USED:
+html tables, html5, css3, mobile responsive, npm, webpack, web accessibility, NVDA, GITHUB , lighthouse audit, NETLIFY.
 
+## DISCLAIMER:
+The "corporation clones" below are for Demonstration Purposes Only. No infringements are intended against any corporate copyrights, trademarks, intellectual properties, or other proprietary assets. All images are the property of its respective owners. Please contact me if there are any issues. Thank you! 
 
-### this is a transactional html email from capitalone informing their cardholder that a payment has been denied 
-because the request was made to an expired credit card number. capitalone is informing the customer to update their credit info.
+## ACCESSIBILITY:
+I used accessibility code to increase this page's web accessibility. I mostly used aria-role landmarks and tabindex code to increase focus and access. There is a strong movement in the web development world to build and code web content that is accessible to everybody. Lawsuits and accessility standards are happenning regularly. Some statistics report there are over 1 billion people worldwide who have difficulties using web content because of different disabilities.
+
+### Github pages link:
+https://github.com/jerome-wilson-developer/email_transact-capitalone-update-credit-card
+
+### Netlify link:
+https://capitalone-update-credit-card.netlify.com/

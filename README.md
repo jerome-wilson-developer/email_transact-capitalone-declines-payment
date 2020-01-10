@@ -1,7 +1,6 @@
 # Transactional html emails
 
 ## Capital One: Please update your expired credit card information
-CAPITAL ONE - UPDATE EXPIRED CREDIT CARD 
 This transactional email is a notification to the customer to update their old credit card. Update it's info to their new credit card number. The email has helpful quick links to commonly visited pages on the Capital One webiste. It also offers a quick, fun, non-intimidating survey about customer satisfaction. 
 
 ## TECHNOLOGIES USED:
